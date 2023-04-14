@@ -1,7 +1,7 @@
 package ch06.bank;
 
 public class AccountTest {
-
+	// 상수 처리
 	public static final String BANK_NO = "123";
 	public static final String AREA_NO ="1234";
 	
