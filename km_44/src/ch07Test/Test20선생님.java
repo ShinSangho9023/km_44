@@ -6,12 +6,7 @@ public class Test20¼±»ý´Ô {
 		int length = 0;
 		int sum = 0;
 		
-		while (true) {
-			System.class
-			
-		}
-		
-		
+	
 		
 	}
 
