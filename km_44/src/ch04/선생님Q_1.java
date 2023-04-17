@@ -1,5 +1,6 @@
 package ch04;
 
+import java.io.InputStream;
 import java.util.Scanner;
 
 public class ¼±»ý´ÔQ_1 {
@@ -36,6 +37,11 @@ public class ¼±»ý´ÔQ_1 {
 		System.out.printf("%.2f %s %.2f = %.2f", val1, operator, val2, result);
 		}
 
+	}
+
+	private static Scanner Scanner(InputStream in) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
