@@ -1,4 +1,4 @@
-package test;
+package ch07Test;
 import java.util.Random;
 public class Test25 {
 

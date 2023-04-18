@@ -1,4 +1,4 @@
-package test;
+package ch07Test;
 
 public class Test23 {
 
@@ -20,11 +20,11 @@ public class Test23 {
 			
 		}
 		System.out.println();
-		System.out.println("합계 : "+ calc.total(a));
+		System.out.println("�빀怨� : "+ calc.total(a));
 		
-		System.out.println("합계 : "+ calc.avg(a));
-		System.out.println("최대값 : "+ calc.max(a));
-		System.out.println("최소값 : "+ calc.min(a));
+		System.out.println("�빀怨� : "+ calc.avg(a));
+		System.out.println("理쒕�媛� : "+ calc.max(a));
+		System.out.println("理쒖냼媛� : "+ calc.min(a));
 		
 	}
 	

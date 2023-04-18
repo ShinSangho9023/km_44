@@ -1,4 +1,4 @@
-package test;
+package ch07Test;
 
 public class Test24 {
 
@@ -8,7 +8,7 @@ public class Test24 {
 		char[] a = {'A','I','D','G','U','B','J','S','T','H'};
 		
 		
-		System.out.print("변경전 : ");
+		System.out.print("蹂�寃쎌쟾 : ");
 		for(int i : a) {
 			System.out.print((char)i);
 		}
@@ -26,7 +26,7 @@ public class Test24 {
 			}
 		}
 		System.out.println();
-		System.out.print("변경후 : ");
+		System.out.print("蹂�寃쏀썑 : ");
 		for(int i : a) {
 			System.out.print((char)i);
 		}

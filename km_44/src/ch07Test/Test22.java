@@ -1,13 +1,13 @@
-package test;
+package ch07Test;
 
 public class Test22 {
 
 	public static void main(String[] args) {
 
-		String[] array1 = {"브레드", "윌크", "초코","소세지","치즈"};
+		String[] array1 = {"釉뚮젅�뱶", "�쐧�겕", "珥덉퐫","�냼�꽭吏�","移섏쫰"};
 		String[] array2 = new String[array1.length];
 		
-		System.out.print("원래 배열: ");
+		System.out.print("�썝�옒 諛곗뿴: ");
 		
 		for (int i = 0; i < array1.length; i++) {
 			
@@ -21,7 +21,7 @@ public class Test22 {
 			
 		}
 
-		System.out.print("역순배열 : ");
+		System.out.print("�뿭�닚諛곗뿴 : ");
 		for (int i = 0; i < array2.length; i++) {
 			
 			System.out.print(array2[i] + " ");

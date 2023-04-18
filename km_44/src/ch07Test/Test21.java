@@ -1,4 +1,4 @@
-package test;
+package ch07Test;
 
 import java.util.Scanner;
 
@@ -15,10 +15,10 @@ public class Test21 {
 			System.out.print(i + " ");
 		}
 		System.out.println();
-		System.out.print("변경하고 싶은 위치1을 입력하세요: ");
+		System.out.print("蹂�寃쏀븯怨� �떢�� �쐞移�1�쓣 �엯�젰�븯�꽭�슂: ");
 		int input1 = sc.nextInt();
 		b = a[input1];
-		System.out.print("변경하고 싶은 위치2을 입력하세요: ");
+		System.out.print("蹂�寃쏀븯怨� �떢�� �쐞移�2�쓣 �엯�젰�븯�꽭�슂: ");
 		int input2 = sc.nextInt();
 		a[input1] = a[input2];
 		a[input2] = b; 
