@@ -24,6 +24,26 @@ public class School
 		System.out.println(s2.toString());// 투 스트링을 호출해서 쓴다.
 		System.out.println(t2.toString());
 		
+		test(s2); // 앞에 this가 안붙은건 static 메서드라서
+		test(t2); // 같은 static 메서드 끼리는 객체 생성 없이 호출하는게 가능하다.
 	}
-
+	
+	public static void test (Person p) 
+	{
+		System.out.println(p.toString());
+		if (p instanceof Student ) 
+		{
+			Student s = (Student) p; //여러번 해야 할때는 따로 변수를 해야 편하다.
+			System.out.println(((Student)p).getKor()); // 국어점수 출력 //괄호를 주어서 연산할때 우선 순위를 주낟.
+		}
+		else if (p instanceof Teacher)
+		{
+			// 급여 출력
+		}
+		
+		// instanceof는 확실히 나누어야 할 때 사용.
+		// 강제 형변환이지만 진짜 뭘 바꾸는 건 아니고 알려주는 것뿐.
+		
+	}
+	
 }

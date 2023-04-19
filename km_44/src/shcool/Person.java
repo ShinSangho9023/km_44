@@ -12,7 +12,7 @@ public abstract class Person
 	public Person() 
 	{
 		
-	}
+	}// 생성자는 꼭 만들어 두는 습관을 해야
 	
 	public Person(String name, String id, String phone) 
 	{
