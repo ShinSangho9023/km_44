@@ -7,8 +7,8 @@ public class StringTest1 {
 		String b = null; // 이렇게 하면 초기화가 된것
 		String c = "";
 		String d = "abc";
-		String e = "abc";
-		String f = new String("abc");
+		String e = "abc"; // 같은 값을 다른 객체가 공유해서 사용하게 됨.
+		String f = new String("abc");// 주소값도 다름.
 		String g = new String("abc");
 		String x = new String("ABC");
 		
@@ -18,7 +18,7 @@ public class StringTest1 {
 		System.out.println(d);
 		
 		
-		System.out.println(d == e);
+		System.out.println(d == e);// 동일한 객체인지 비교
 		System.out.println(f == g);// 객체의 내용을 비교할 땐 다른 방법을 써야한다.
 		//객체를 연사자를 이용해서 비교하는 건 정말로 같은 객체인지를 비교하는 것
 		
@@ -27,7 +27,7 @@ public class StringTest1 {
 		System.out.println(f.equalsIgnoreCase("ABC")); // 대소문자를 봐주면서 비교하는 메서드 길이는 같아야 함. 
 		
 		String s = "abcdefg"; //여기도 위치가 있다. 0123456 배열처럼. 하지만 애는 읽기 전용이다.
-		System.out.println(s.length()); // 이러면 숫자 수가 나옴, 문자열의 길이
+		System.out.println(s.length()); // 이러면 숫자 수가 나옴, 문자열의 길이 반환
 		
 		System.out.println(s.charAt(1));  // 몇번째 글자인지 읽기. 정확한 리턴 타입이 중요 char 타입반환?
 		System.out.println(s.substring(3,6)); // 부분 문자열 읽기. 3 부터 6 전까지. 원본은 그래도 새로운 스트링을 만들어서 리턴한다.
