@@ -31,8 +31,6 @@ public class StringTest04
 			String femle = null;
 			int nowMonth = c.get(Calendar.MONTH) + 1;
 			
-			
-			
 			// 변수 ----------------------------------------------
 			
 			if (input.length() != 14) 
@@ -53,7 +51,6 @@ public class StringTest04
 				}
 			}// 체크
 				
-		
 			char sex = input.charAt(7);
 			
 			if (input.charAt(6) != '-') 
@@ -74,7 +71,8 @@ public class StringTest04
 			int maxDay = 0;
 			System.out.println(month);
 			
-			switch (month) {
+			switch (month) 
+			{
 			case 1 :
 			case 3 :
 			case 5 :
@@ -90,15 +88,16 @@ public class StringTest04
 				maxDay = 30;
 				break;
 			case 2 : 
-				if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {		
+				if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) 
+				{		
 					maxDay = 29;
 				}
-				else {
+				else 
+				{
 					maxDay = 28;
 				}
 				break;
 			default: ;
-			
 			}
 			
 			if (month < 0 || month > 12) 
@@ -143,8 +142,6 @@ public class StringTest04
 				System.out.printf("%s년 %d월 %d일생 만 %d세 %s입니다.",year,month,day,만나이,femle );
 				return;
 			}
-			
-			
 		}
 	}
 }
