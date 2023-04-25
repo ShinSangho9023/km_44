@@ -37,6 +37,7 @@ public class RandomTest {
 		int a = 0;
 		int b = 0;
 		// Á¤·Ä
+		
 		for (int i = 0; i < num.length -1; i++) 
 		{
 			for (int j = i + 1; j < num.length; j++ ) 
