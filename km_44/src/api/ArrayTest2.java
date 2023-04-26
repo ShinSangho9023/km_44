@@ -7,6 +7,7 @@ public class ArrayTest2 {
 
 	public static void main(String[] args) {
 		ArrayList<Integer> num = new ArrayList<Integer>();
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		
 		

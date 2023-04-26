@@ -13,12 +13,13 @@ public class ArrayListTest1 {
 		
 		// 데이터를 여러 개 담는다면 arraylist다
 		//스트링을 담을 열개짜리 공간
+		// 저기에 object를 담으면 아무거나 다 담을 수 있다.
 		
 		System.out.println(list); // 한번에 모든 내용 다 보여줌
 		System.out.println(list.size()); //배열에 추가된 요소 전체 개수를 반환한다.
 		System.out.println(list.isEmpty());//배열이 비어 있는지 확인한다.
 
-		
+		// 앞에서부터 순서대로 집어넣는다.
 		list.add("aaa");
 		list.add("bbb");
 		list.add("ccc");
@@ -53,13 +54,6 @@ public class ArrayListTest1 {
 		{
 			System.out.println(s);
 		}
-		
-		
-		
-		
-		
-		
-		
 		
 	}
 

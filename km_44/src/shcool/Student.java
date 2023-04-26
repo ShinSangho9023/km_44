@@ -106,8 +106,7 @@ public class Student extends Person
 	
 	@Override // 항상 붙일 것.
 	public String toString() {
-		return super.toString() + " 국어: " + kor + " 영어: " + eng + " 수학: " + math;
-		
+		return super.toString() + " 국어: " + kor + " 영어: " + eng + " 수학: " + math + "\n";
 	}
 	
 	

@@ -58,7 +58,7 @@ public abstract class Person
 	//
 	
 	public String toString() {
-		String s = "이름: " + name + "주민등록번호:" + id + "전화번호" + phone;
+		String s = "이름: " + name + " 주민등록번호: " + id + " 전화번호 " + phone;
 		return s;
 	}
 }
