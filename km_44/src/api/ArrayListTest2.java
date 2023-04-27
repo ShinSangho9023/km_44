@@ -7,6 +7,7 @@ public class ArrayListTest2 {
 
 	public static void main(String[] args) {
 		ArrayList <Data> list = new ArrayList <Data>();
+		Scanner sc = new Scanner(System.in);
 		
 		Data d = null;
 		
@@ -22,14 +23,11 @@ public class ArrayListTest2 {
 		
 		System.out.println(list);
 		
-		Scanner sc = new Scanner(System.in);
-		
 		Data input = new Data();
 		input.setName(sc.next());
 		input.setNum(sc.nextInt());
-		
+		list.add(input);
 		// 입력한 값이 리스트에 있는지 위치 출력
-		
 		// 검색을 하려면 equals를 오버라이딩 해서 메서드를 만들어 놔야 한다.
 		// object에서 상속받은 equals를 오버라이딩
 		
@@ -40,7 +38,7 @@ public class ArrayListTest2 {
 			System.out.println("데이터가 없습니다.");
 		}
 		else {
-			System.out.println(i + "번쨰에 있습니다.");
+			System.out.println(i + "번째에 있습니다.");
 		}
 	}
 }
